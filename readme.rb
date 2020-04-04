@@ -74,3 +74,23 @@ def get_score()
 end 
 
 # allergy_score(get_score)
+def rain_temp(raining, temperature)
+    raining = false
+    temperature = 22
+
+    if temperature < 15
+        if raining == true
+            puts "It's wet and cold"
+        else
+            puts "It's not raining but cold"
+        end
+    else 
+        if raining == true
+            puts "It's warm but not raining"
+        else   
+            puts "It's warm and raining"
+        end
+    end
+end
+
+rain_temp()

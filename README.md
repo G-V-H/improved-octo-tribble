@@ -79,19 +79,27 @@ The celsius variable is a string causing Ruby to attempt to repeat the string 9 
     end
 
 # Q14
-    i = 2
-    while (i < 101)
-        # j = i
-        if i.even? 
-            i == 2 ? (p i) : (print "")
-        elsif (2..i/2).none?{ |x| i % x == 0}
-            p i
-        end
-        i += 1
-        
-
-
-
+![flowchart](/docs/PrimeFlowchart.jpg)
+   
+    start
+        initialise variable i = 3
+        print '2'
+        loop while i < 101
+            if i even then
+                i += 1
+            else
+                initialise variable j = 2
+                loop while i mod j != 0
+                    if j > 1 / 2
+                        print i
+                        break
+                    else
+                        j += 1
+                    end
+                end loop
+            end
+        end loop
+    end
 
 # Q15
     raining = false
@@ -110,7 +118,6 @@ The celsius variable is a string causing Ruby to attempt to repeat the string 9 
             puts "It's warm and raining"
         end
     end
-
 
 # Q16
     def allergic(num, chars, allergies)
