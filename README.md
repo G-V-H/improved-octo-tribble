@@ -1,12 +1,21 @@
 # Q1
-Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
+Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time. 300 - 500
 
-300 - 500
+## 1. ARPANET
+Oft considered the predecessor to the modern internet, the Advanced Research Projects Agency Network (ARPANET) was the first successful implementation of the technology used as the foundation of the internet today. Initiated in 1966, it was the first wide area network, connecting four computers, built for the US Department of Defence in response to brewing Cold War fears. It made use of packet switching, which was novel at the time, in order to provide a more robust method of sending data should nuclear war emerge and networks were disrupted since earlier methods were more susceptible to single points of failure. 
 
+## 2. RSA Cryptosystem
+RSA (Rivest-Shamir-Adleman) is a public-key, or asymmetric, cryptography system that was first introduced in 1977 used to securely encrypt and decrypt information such that it can be passed between the sender and recipient with the knowledge that, if intercepted, it could not be deciphered. The implementation of RSA over the internet with digital signatures provided the ability to have trustworthy and secure transactions of data easily but securely. RSA is still widely used today over the internet to securely transfer information between users and banks, businesses, email clients, and many more.
 
+## 3. Tim Berners-Lee
+Sir Timothy Berners-Lee is the inventor of the World Wide Web (1989) and was the builder of the first web browser (1990). During the 1980s, whilst working at CERN using the primitive internet at the time, he devised the concept of hypertext and subsequently hyperlinks, hypertext markup language (HTML), and Uniform Resource Locators (URLs). All of these inventions and discoveries are without a shadow of a doubt important, and still in use today (even in this course), making up at least a significant portion of the backbone of the internet.  Without which the modern internet would not be the same.
 
+## 4. John O'Sullivan
+Dr. John O'Sullivan is an Australian electrical engineer and the inventor of Wi-Fi, which was publically released in 1997. Utilising his work in Fourier transformations, which changes information from one form to another, he invented the Fast Fourier Transform chip which would become the basis upon which wireless LAN technology and modern-day Wi-Fi would be built on. The ability to wireless access the internet has become a staple in our modern lives with which many of us rely on. 
+
+## 5. Search Engines
+The search engine has become a crucial and critical part of modern-day life and is a significant part of internet history. Gerard Salton was a professor at Cornell University who is widely considered the father of the search engine. His work was primarily focused on information retrieval and his book "A Theory of Indexing" from which many of today's search engines are derived from. The first-ever search engine was called Archie and was created in 1990. Whilst Archie and many of its successors have come and gone, Google was launched in 1998 and has become a pivotal part of life.
 # Q2
-Define the features of the following technologies that are essential in terms of the development of the internet:
 ## Packets
 A packet is a fixed format and size unit of data used to facilitate communication and the transfer of information. In today's internet information is broken down into numerous packets to be transferred and rebuilt at its destination. A typical packet will contain the necessary information to reach its destination (i.e. the recipient's address), the sender's address,  and a variety of error handling bits. The introduction of the packet was crucial in the development of the internet as it was able to remove the rigid structure of sending single large messages that could easily be disrupted and strained the network.
 ## IP addresses (IPv4 and IPv6)
