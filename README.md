@@ -7,14 +7,15 @@ Research the development of the internet from 1980 to today. You must describe a
 
 # Q2
 Define the features of the following technologies that are essential in terms of the development of the internet:
- - packets
- - IP addresses (IPv4 and IPv6)
- - routers and routing
- - domains and DNS
-
-Explain how each technology has contributed to the development of the internet.
-
-50 - 100
+## Packets
+A packet is a fixed format and size unit of data used to facilitate communication and the transfer of information. In today's internet information is broken down into numerous packets to be transferred and rebuilt at its destination. A typical packet will contain the necessary information to reach its destination (i.e. the recipient's address), the sender's address,  and a variety of error handling bits. The introduction of the packet was crucial in the development of the internet as it was able to remove the rigid structure of sending single large messages that could easily be disrupted and strained the network.
+## IP addresses (IPv4 and IPv6)
+The IP address serves as a foundational component of today's internet; functionally acting as the digital address for computers on a network providing a way for computers to know who was sending packets to whom. An IP address is a unique set of 4 numbers separated by full-stops. IPv4 was the first implementation of IP addresses which used 32-bit size addresses which allowed for 4,294,967,296 addresses. As the number of IPv4 addresses began to run out, even with the bundling of local addresses using Network Address Translation, the IPv6 protocol was implemented which used 128-bit size addresses allowing 340,282,366,920,938,463,463,374,607,431,768,211,456 addresses.
+## Routers and routing
+Routers are a type of networking device which facilitates the travel of packets between their source and their destination. Every router forwards the packet onward based on the address information inside each packet. As they do not have a list of every IP address a router will use a routing table that effectively has a list of partial addresses to forward the packet to the next appropriate subnetwork, router, or final destination along the fastest route possible. The extensive network of routers is the metaphorical street signs along the highway that is the internet directing traffic to where its going.
+## Domains and DNS
+A domain name is the string alias by which we as humans typically refer to websites or services on the internet. As it is typically difficult for humans to read and remember IP addresses we abstract that information to a domain name for easier storage.
+The domain name system, or DNS, is the translation system for computers or servers for the human-readable domain name layer of the IP address system of the internet. DNS takes the domain name of a website and converts it to an IP address which computers, servers, and routers understand. Altogether making internet use human friendly.
 
 # Q3  
 Define the features of the following technologies that are essential in terms of the development of the internet:
