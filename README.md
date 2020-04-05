@@ -1,6 +1,4 @@
 # Q1
-Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time. 300 - 500
-
 ## 1. ARPANET
 Oft considered the predecessor to the modern internet, the Advanced Research Projects Agency Network (ARPANET) was the first successful implementation of the technology used as the foundation of the internet today. Initiated in 1966, it was the first wide area network, connecting four computers, built for the US Department of Defence in response to brewing Cold War fears. It made use of packet switching, which was novel at the time, in order to provide a more robust method of sending data should nuclear war emerge and networks were disrupted since earlier methods were more susceptible to single points of failure. 
 
@@ -27,12 +25,18 @@ A domain name is the string alias by which we as humans typically refer to websi
 The domain name system, or DNS, is the translation system for computers or servers for the human-readable domain name layer of the IP address system of the internet. DNS takes the domain name of a website and converts it to an IP address which computers, servers, and routers understand. Altogether making internet use human friendly.
 
 # Q3  
-Define the features of the following technologies that are essential in terms of the development of the internet:
- - TCP
- - HTTP and HTTPS
- - web browsers (requests, rendering and developer tools)
 
-Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
+## TCP
+Transmission Control Protocol (TCP) is an internet protocol that works hand-in-hand with the Internet Protocol (IP) to communicate and deliver data over the internet reliably. 
+When requests for data are made the IP layer initiates the transfer of data, however, this is facilitated by the TCP layer and the TCP ports. As requests from clients to servers are made both TCPs will in effect open up specifically labeled ports to connect to and send and receive data. This provides a way to establish connections that do not erroneously send incorrect packets, effectively separating packets sent and received.
+At both endpoints of the client and server, the TCP will respond back and forth with each other as needed in order to verify and acknowledge receipt of the requested data. By exchanging messages the client and server will both know if a transfer of data has been completed. 
+## HTTP and HTTPS
+Hypertext Transfer Protocol (HTTP) is the protocol for transmitting hypermedia documents, such as HTML, determining the way in which information is transferred between the client and the server when sending and retrieving information from web pages. HTTP sends all information in a clear text format. This format is entirely unencrypted and can be easily read. HTTP is a connectionless protocol, meaning that once the request has been made the server will send the information without acknowledging if the client is ready. Once complete the connection between the client and server is severed. Similarly, HTTP is a stateless protocol where the server does not retain any session information between requests from the client meaning the packets sent and received require no context for the server or client.
+
+Hypertext Transfer Protocol Secure (HTTPS) is effectively HTTP with added public-key cryptography to encrypt the transfer of information between the client and the server.
+## Web browsers (requests, rendering and developer tools)
+When a web browser requests a web page it initiates a number of the requests required for the client to receive data from the server. This includes a DNS lookup, sending an HTTP request, receiving the HTML file and embedded objects, and then rendering the said page. The ubiquitous proliferation of web browsers and their continuous improvement has lead to the continual advancement of web technologies. As browsers become more capable of requesting and rendering bigger and better objects the abilities for client and server technology to accommodate have had to also maintain pace.
+Browser developer tools have provided an immense amount of momentum to the advancement of technologies by enabling developers to get a better understanding as to how their sites, scripts, and programs affect both the client and server.
 
 # Q4
 ## Array
