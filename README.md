@@ -74,20 +74,28 @@ As a compiled language it does suffer from the usual pitfalls such as platform d
 In combination with its difficult syntax, the strong typing of C++ hinders the speed in which a developer is able to produce a program in comparison to a language such as Python. 
 
 # Q7
-Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
+## Freedom of thought, conscience, speech and the media
+Source of legal information: [Australian Human Rights Commission - Freedom of information, opinion and expression](https://www.humanrights.gov.au/our-work/rights-and-freedoms/freedom-information-opinion-and-expression) 
 
-List of topics containing ethical issues:
- - access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
- - intellectual property, copyright, and acknowledgement.
- - criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, terrorism
- - GPS tracking data and other types of metadata, MAC addresses, hardware fingerprints
- - freedom of thought, conscience, speech and the media
- - aggressive sales and marketing practices designed to mislead and deceive consumers
- - trading of shares on the stock exchange OR crypto-currencies
+The Australian Human Rights Commission provides a number of legal precedents that would imply our legal freedom of thought, conscience, speech, and the media. However, it is noted that we do not have explicitly have those freedoms. Given this murky grey area of common law, it can be definitively said the law is unhelpful in assisting a development act ethically in regards to freedom of expression.   
+## Access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
 
-For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way. (Word count guide: 200 words max)
+Source of legal information: [Privacy Amendment(Enhancing Privacy Protection) Act 2012](https://www.oaic.gov.au/assets/privacy/australian-privacy-principles/the-australian-privacy-principles.pdf)
 
-Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)
+The Australian Privacy Principles provide clear and distinct rulings on the way in which an IT professional should behave within the realms of collection, dealings, integrity, and access to personal information. As a legal resource, the law is undoubtedly helpful in assisting developers to act ethically.
+
+## Case Study
+The Australian Information Commissioner's (OAIC) legal case against Facebook proves to be a topical case study with regards to how IT professionals can act ethically. The case against Facebook is over the alleged data breaches of over 300,000 Australian Facebook users' personal information was disclosed to Facebook's This Is Your Life application for a purpose other than the purpose that was disclosed by them. The information itself was collected not at the expressed wishes of the user but rather on use by the user's friend. Furthermore, the information is said to have been intentionally accessible to Cambridge Analytica, a political data-analysis firm, to be used for political profiling and to be sold-on to third parties. 
+
+If the allegations were found to be true then Facebook would be in breach of the Privacy Act 1988 and would face a fine of approximately $1 Billion AUD. It is said that Facebook's operations were not transparent nor were they accountable in the way the personal information of Australian users was handled and that Facebook's design decisions meant users were unable to exercise and amount of control over the way in which their personal information was disclosed. Furthermore, it is alleged that Facebook did not take any reasonable steps to protect the users' information.
+
+Taken at face value, it should be noted that this is an ethical failing of potentially hundreds if not thousands of IT professionals within Facebook. Whilst there is a distinction between ethics and legality, it should be clear that the negligent actions of Facebook and its developers were clearly unethical and illegal. 
+
+When faced with this case study there are a number of clear and distinct lines any ethical IT professional should be cognisant of crossing whilst also utilising their legal resources on hand. With reference to the Privacy Amendment Act 2012 , adherence to a number of the privacy principles has already gone wayward. For instance, Australian Privacy Principles 2014 p 3(8)(8.1)(a|b) it clearly states that "the entity must take such steps as are reasonable in the circumstances to ensure that the overseas recipient does not breach the Australian Privacy Principles" and Australian Privacy Principles 2014 p 1(1)(1.2)(a) "will ensure that the entity complies with the Australian Privacy Principles".
+
+Using the Australian Privacy Principles an ethical IT professional should find it, if not trivial, then, straightforward in mitigating and preventing ethical breaches regarding the disclosure of personal information. The information disclosed by the user should have been kept within the bounds of their disclosed use. In this case, the information collected within Facebook should have remained separate from their This Is Your Life App unless explicitly agreed upon by the user in question to be disclosed onward. This is in keeping with the Australian Privacy Principles 2014 p 3(6)(6.1)(a) "If an APP entity holds personal information about an individual that was collected for a particular purpose (the primary purpose), the entity must not use or disclose theinformation for another purpose (the secondary purpose)  unless: (a) the individual has consented to the use or disclosure of the information".
+
+Should this case prove true, it is a clear case of unethical practices by IT professionals. With the available resources at hand, no ethical IT professional should be mistaken in their duties and obligations in mitigating and preventing this ethical breaches.
 
 # Q8
 Control flow is the order in which the code or instructions are carried out in a program. Whilst typically linear, going from top to bottom, using control-flow statements such as if/else or loops we change the direction of the flow to skip, go-to, or repeat lines of code.
